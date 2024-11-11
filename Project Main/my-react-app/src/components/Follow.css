@@ -1,0 +1,22 @@
+.follow-btn {
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.follow-btn:hover {
+    background-color: blue;
+}
+
+.follow-btn.following {
+    background-color: limegreen;
+}
+
+.follow-btn.following:hover {
+    background-color: green;
+}

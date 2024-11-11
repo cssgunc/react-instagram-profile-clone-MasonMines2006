@@ -1,0 +1,49 @@
+.top-bit-container {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    text-align: start;
+    margin-bottom: 20px;
+    opacity: 90%;
+}
+
+.pfp {
+    margin-right: 50px;
+}
+
+.top_bit_img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+}
+.count_description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+.statistic {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.short_description {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.short_description p {
+    margin: 0;
+}
